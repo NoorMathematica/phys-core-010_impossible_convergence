@@ -517,7 +517,7 @@
 			"A(M) = motif attractor basin"
 		  ],
 
-		  "mermaid_diagram": "```mermaid\ngraph LR\n\nNoise[Noise Regime<br/>C(M) << N_p<br/>Motifs indistinguishable from noise]\nThreshold[Threshold Boundary<br/>C(M) ≈ N_p<br/>Motif stabilization]\nCascade[Cascade Regime<br/>C(M) ≥ N_p<br/>Global motif detectability]\n\nNoise --> Threshold\nThreshold --> Cascade\n\nG1[Explorer G₁ Path] --> Threshold\nG2[Explorer G₂ Path] --> Threshold\nG3[Explorer G₃ Path] --> Threshold\n\nCascade --> Discovery[Independent Detection Events]\n\nDiscovery --> Knowledge[Motif Integration into Knowledge Systems]\n```",
+		  "mermaid_diagram": "```mermaid graph LR  Noise[Noise Regime<br/>C(M) << N_p<br/>Motifs indistinguishable from noise] Threshold[Threshold Boundary<br/>C(M) ≈ N_p<br/>Motif stabilization] Cascade[Cascade Regime<br/>C(M) ≥ N_p<br/>Global motif detectability]  Noise --> Threshold Threshold --> Cascade  G1[Explorer G₁ Path] --> Threshold G2[Explorer G₂ Path] --> Threshold G3[Explorer G₃ Path] --> Threshold  Cascade --> Discovery[Independent Detection Events]  Discovery --> Knowledge[Motif Integration into Knowledge Systems] ```",
 
 		  "diagram_interpretation": [
 			"Below the Noor-Planck threshold motifs remain hidden within noise.",
