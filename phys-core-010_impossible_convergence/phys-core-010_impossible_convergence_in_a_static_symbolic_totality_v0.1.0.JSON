@@ -453,7 +453,7 @@
           "title": "Formal Statement of Impossible Convergence",
           "cypher": "Different journeys, same discovery.",
           "equation": "T_G1 ≠ T_G2 ∧ C(M) ≥ N_p → detect_G1(M) ∧ detect_G2(M)"
-        }
+        },
 		
 		{
 		  "section": "5.5",
