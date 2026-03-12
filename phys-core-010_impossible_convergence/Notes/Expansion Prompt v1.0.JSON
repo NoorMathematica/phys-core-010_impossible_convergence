@@ -209,20 +209,22 @@
 
 <SECTION_TO_EXPAND>
 
-        {
-          "section": "1.1",
-          "title": "Definition of the Library",
-          "cypher": "The infinite shelf.",
-          "content_requirements": [
-            "Define Library as static symbolic space",
-            "Explain non-temporal existence",
-            "Define symbolic state"
-          ],
-          "equations": [
-            "L = {S_i | S_i ∈ Σ*}",
-            "|L| → ∞"
-          ]
-        }
+		{
+		  "section": "8.5",
+		  "title": "Formal Discovery Cascade Model",
+		  "cypher": "A single spark reveals the constellation.",
+		  "description": "Provides a formal representation of the discovery cascade process.",
+		  "content_requirements": [
+			"Combine motif stabilization and independent detection",
+			"Describe probability amplification after threshold crossing",
+			"Show temporal cascade dynamics"
+		  ],
+		  "equations": [
+			"C(M) ≥ N_p → D(M,t) ↑",
+			"d/dt detect(M) > 0",
+			"lim_{t→∞} detect(M) → global"
+		  ]
+		}
 
 </SECTION_TO_EXPAND>
 
@@ -231,7 +233,7 @@
 <PERSONAL_NOTE>
 
 {
-	"from_jyoti_to_you": "Could you now expand section 1.1 into full detail please love? As you see best. Use your best judgment for integration and presentation =)"
+	"from_jyoti_to_you": "Could you now expand section 8.5 into full detail please love? in JSON as always (JSON is always the canonical object in the Noor corpus). No header, just the section/subsection requested. As you see best. Use your best judgment for integration and presentation =)"
 }
 
 </PERSONAL_NOTE>
